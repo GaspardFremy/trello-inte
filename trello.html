@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+	<meta charset="UTF-8">
+	<title border>Trello</title border>
+	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto|PT+Mono'>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/trello.css">
+
+</head>
+<body>
+	<div class="view-port" >
+		<nav class="menu">
+			<div class="left-menu">
+				<img src="img/burger.png" class="icon icon-left" alt="">
+				<div class="icon-left">BOARD</div>
+				<div class="search">
+					<img src="img/search.png" class="icon" alt="">
+					<div class="search">search</div>
+				</div>
+			</div>
+
+			<div class="center-menu">
+				<img src="img/logo.png" class="logo" alt="">
+			</div>
+
+
+			<div class="right-menu">
+				<div class="create">
+					<img src="img/plus.png" class="icon" alt="">
+					<div>CREATE</div>
+				</div>
+				<div class="user">
+					<div class="div">Gaspiche</div>
+				</div>
+
+				<div class="notif">
+					<img src="img/notif.png" class="icon" alt="">
+				</div>
+
+			</div>
+
+		</nav>
+		<div class="team"><img src="./img/star.png" class="icon" alt="">Team Stormer beta development - first phase</div>
+
+		<div class="card-container">
+
+			<div class="card">
+				<div class="title border">Backlog</div>
+				<ul>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis enim sit amet</li>
+				</ul>
+				<input border type="text" placeholder="Add new ticket..." name="" value="">
+			</div>
+
+			<div class="card">
+				<div class="title border">DESIGN SPRINT #7</div>
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+					<li>cing elit. Donec lobortis enim sit amet metus laoreet, ut condimentum</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+					<li>cing elit. Donec lobortis enim sit amet metus laoreet, ut condimentum</li>
+				</ul>
+				<input border type="text" placeholder="Add new ticket..." name="" value="">
+			</div>
+
+			<div class="card">
+				<div class="title border">#DEV SPRINT 13</div>
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+					<li>cing elit. Donec lobortis enim sit amet metus laoreet, ut condimentum</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+					<li>cing elit. Donec lobortis enim sit amet metus laoreet, ut condimentum</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+					<li>cing elit. Donec lobortis enim sit amet metus laoreet, ut condimentum</li>
+				</ul>
+				<input border type="text" placeholder="Add new ticket..." name="" value="">
+			</div>
+
+			<div class="card">
+				<div class="title border">accepted</div>
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+					<li>cing elit. Donec lobortis enim sit amet metus laoreet, ut condimentum</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+					<li>cing elit. Donec lobortis enim sit amet metus laoreet, ut condimentum</li>
+				</ul>
+				<input border type="text" placeholder="Add new ticket..." name="" value="">
+			</div>
+
+			<div class="card">
+				<div class="title border">Todo</div>
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+					<li>cing elit. Donec lobortis enim sit amet metus laoreet, ut condimentum</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+					<li>cing elit. Donec lobortis enim sit amet metus laoreet, ut condimentum</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+					<li>cing elit. Donec lobortis enim sit amet metus laoreet, ut condimentum</li>
+				</ul>
+				<input border type="text" placeholder="Add new ticket..." name="" value="">
+			</div>
+
+			<div class="card">
+				<div class="title border">Idea</div>
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+					<li>cing elit. Donec lobortis enim sit amet metus laoreet, ut condimentum</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+					<li>cing elit. Donec lobortis enim sit amet metus laoreet, ut condimentum</li>
+				</ul>
+				<input border type="text" placeholder="Add new ticket..." name="" value="">
+			</div>
+		</div>
+
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.js"></script>
+	<script src="js/trello.js"></script>
+
+	<script>
+		dragula([document.querySelector('.card-container')])
+	</script>
+
+
+
+
+</body>
+</html>
